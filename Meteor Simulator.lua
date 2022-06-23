@@ -11,7 +11,7 @@ end;
 local Cash = game:GetService("ReplicatedStorage"):WaitForChild("ServerStats"):WaitForChild(game.Players.LocalPlayer.Name).Cash.Value
 
 local function getNearestObjects()
-    local TargetDistance = 8
+    local TargetDistance = math.huge
     local Target
     for _, v in pairs(game:GetService("Workspace").Objects:GetChildren()) do
         if v.ClassName == 'MeshPart' then
