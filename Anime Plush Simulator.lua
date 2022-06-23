@@ -1,3 +1,5 @@
+-- // https://www.roblox.com/games/9437926290/
+
 if game.CoreGui:FindFirstChild("5013109572") then
 	game.CoreGui:FindFirstChild("5013109572"):Destroy()
 end  
