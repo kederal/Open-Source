@@ -1,8 +1,8 @@
 -- // https://www.roblox.com/games/9602700094/
 
-if game.CoreGui:FindFirstChild("System Cockdus - Open Source") then
-   game.CoreGui:FindFirstChild("System Cockdus - Open Source"):Destroy()
-end  
+if game.CoreGui:FindFirstChild("5013109572") then
+   game.CoreGui:FindFirstChild("5013109572"):Destroy()
+end   
 
 function calcReb()
 	return game:GetService("ReplicatedStorage"):WaitForChild("ItemDictionary").SimulatorSettings.RebirthsSettings.Version.Version1StartingAmount.Value * 2 ^ game:GetService("ReplicatedStorage"):WaitForChild("ServerStats"):WaitForChild(game.Players.LocalPlayer.Name).Rebirths.Value;
